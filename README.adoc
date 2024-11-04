@@ -1,4 +1,4 @@
-= SAÉ 3.01 devapp G1A-1 juste un test
+= SAÉ 3.01 devapp G1A-1
 :icons: font
 :models: models
 :experimental:
