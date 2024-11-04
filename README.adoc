@@ -1,4 +1,4 @@
-= SAÉ 3.01 2023-2024
+= SAÉ 3.01 devapp G1A-1
 :icons: font
 :models: models
 :experimental:
@@ -51,9 +51,11 @@ toc::[]
 
 Projet est réalisé par::
 
-- https://github.com/janeDoe[Jane Doe]
-- https://github.com/johnSmith[John Smith]
-...
+- https://github.com/HugoTHOLLON[Hugo Thollon]
+- https://github.com/KilianDemangel[Kilian Demangel]
+- https://github.com/RomainGrassaudPicoreau[Romain Grassaud--Picoreau]
+- https://github.com/ElPoraz[Pablo Marquet]
+- https://github.com/titouangauze[Titouan Gauze]
 
 Tuteur/tutrice enseignant(e) de l'équipe:: mailto:jean-michel.bruel@univ-tlse2.fr[JMB]
 
