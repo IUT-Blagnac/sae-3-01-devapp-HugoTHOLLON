@@ -1,0 +1,448 @@
+﻿TODO
+* Ajouter charge de travail + priorité. (must should could would)
+* Ajouter les sous-tâches de chaque user story.
+
+
+Priorité : plus le nombre est petit, plus la priorité est importante.(1 - 2→must, 3 - 4 →should, 5 - 6→could, 7+→would)
+
+
+
+
+Accéder au site
+Charge de travail : 8h
+Priorité : 1
+En tant que client visiteur, je veux pouvoir accéder au site pour y consulter des produits.
+Critères d’acceptations :
+* L'utilisateur peut accéder au site en entrant l'URL dans la barre d'adresse, et le site doit se charger en moins de 3 secondes.
+
+
+* La page d'accueil s'affiche avec un menu de navigation et des catégories de produits visibles dès que le site est chargé.
+
+
+* L'utilisateur peut consulter les produits sans avoir besoin de se connecter au site.
+
+
+* Le site doit s'afficher correctement et sans problèmes d'affichage majeurs sur les navigateurs populaires : Chrome, Firefox, Safari, et Edge.
+
+
+* Le site doit être adapté aux appareils mobiles, permettant une navigation confortable sur smartphone et tablette, avec un affichage responsive.
+        Issues associées :
+* créer une page d’accueil du site en html (interface)
+* créer sur la page d’accueil les zones de redirections 
+* créer la page de consultation des produits
+* créer sur la page de consultation le bouton de retour à la page d’accueil
+* créer les tables de base de données contenant les produits
+* afficher les produits sur la page
+
+
+
+
+Création compte client
+Charge de travail : 4h
+Priorité : 2
+En tant que client visiteur, je veux pouvoir me créer un compte afin de pouvoir accéder à toutes les fonctionnalités associés aux comptes clients.
+Critères d’acceptations :
+* L'utilisateur peut accéder à une page de création de compte depuis la page d'accueil ou la page de connexion.
+
+
+* La page de création de compte affiche des champs obligatoires pour le nom, prénom, adresse e-mail, mot de passe, et confirmation de mot de passe.
+
+
+* Lors de la création de compte, si l'utilisateur entre un mot de passe qui ne correspond pas au champ de confirmation, un message d'erreur apparaît.
+
+
+* Si l'utilisateur entre une adresse e-mail déjà utilisée, un message d'erreur l'informe que cet e-mail est déjà enregistré.
+
+
+* Une fois les informations valides remplies et soumises, le compte est créé, et un message de confirmation s'affiche.
+
+
+* L'utilisateur est automatiquement connecté et redirigé vers la page d'accueil une fois le compte créé avec succès.
+        Issues associées :
+* 
+
+Gérer compte client
+Charge de travail : 6h
+Priorité : 3
+En tant que client, je veux pouvoir modifier les informations de mon compte..
+Critères d’acceptations :
+* L'utilisateur connecté peut accéder à une page dédiée à la gestion de son compte depuis son profil ou le menu de navigation.
+
+
+* Sur cette page, l'utilisateur peut modifier ses informations personnelles, telles que son nom, prénom, adresse e-mail, et mot de passe.
+
+
+* L'utilisateur peut également mettre à jour son adresse de livraison et ses informations de paiement, si ces options sont disponibles.
+
+
+* Si l'utilisateur modifie son mot de passe, un message de confirmation s'affiche.
+
+
+* Lors de la modification des informations, un bouton "Enregistrer" permet de sauvegarder les modifications, et un message confirme que les informations ont été mises à jour avec succès.
+
+
+* Si l'utilisateur essaie de modifier son adresse e-mail pour une adresse déjà utilisée, un message d'erreur l'informe que l'email est déjà enregistré.
+
+
+* L'utilisateur peut également supprimer son compte, avec une confirmation avant de finaliser l'action pour éviter toute suppression accidentelle.
+        Issues associées :
+
+
+
+
+
+
+Se connecter/déconnecter
+Charge de travail : 3h
+Priorité : 2
+En tant que client je veux pouvoir me connecter et me déconnecter facilement du site. Je veux aussi qu’on puisse se souvenir de moi quand je me reconnecte.
+Critères d’acceptations :
+* L'utilisateur peut accéder à la page de connexion depuis la page d'accueil.
+
+
+* La page de connexion dispose de champs pour l'adresse e-mail et le mot de passe, ainsi qu'une case à cocher "Se souvenir de moi".
+
+
+* Si l'utilisateur entre des informations de connexion incorrectes, un message d'erreur clair est affiché.
+
+
+* Une fois connecté, l'utilisateur est redirigé vers la page d'accueil avec une confirmation de connexion.
+
+
+* L'utilisateur connecté peut se déconnecter à tout moment en cliquant sur un bouton "Déconnexion" accessible depuis le menu.
+
+
+* Si l'utilisateur a coché "Se souvenir de moi" lors de la connexion, ses informations de connexion sont enregistrées, et il reste connecté lors de sa prochaine visite, sauf en cas de déconnexion manuelle.
+        Issues associées :
+
+
+
+
+Consulter le catalogue des produits
+Charge de travail : 6h
+Priorité : 1
+En tant que client visiteur, je veux pouvoir parcourir le catalogue du site afin d’obtenir des informations précises sur les produits que je compte acheter.
+Critères d’acceptations :
+* L'utilisateur peut accéder au catalogue de produits depuis la page d'accueil.
+
+
+* Le catalogue affiche une liste de produits avec des informations de base pour chaque produit : nom, image, prix et description courte.
+
+
+* Le catalogue est organisé en catégories pour permettre une navigation facile entre différents types de produits.
+        Issues associées :
+
+
+
+
+Tri d’une liste de produits 
+Charge de travail : 6h
+Priorité : 1
+En tant que client visiteur je veux pouvoir trier une liste de produits avec différents critères de tri comme par exemple le prix (croissant/décroissant), la taille, ou le poids.
+Critères d’acceptations :
+* L'utilisateur peut accéder aux options de tri depuis la page du catalogue de produits.
+
+
+* Les options de tri disponibles incluent : tri par prix (croissant et décroissant), taille, et poids.
+* Lorsqu'un critère de tri est sélectionné, la liste des produits est automatiquement réorganisée en fonction de ce critère.
+
+
+* Le tri est appliqué en temps réel sans besoin de recharger la page.
+
+
+* L'utilisateur peut changer de critère de tri à tout moment, et la liste des produits se met à jour en conséquence.
+
+
+* Si aucun produit ne correspond aux critères appliqués, un message informe l'utilisateur qu'aucun produit n'est disponible pour ces critères de tri.
+        Issues associées :
+
+
+
+
+Recherche de produits
+Charge de travail : 3h
+Priorité : 2
+En tant que client visiteur je veux pouvoir rechercher des produits par catégorie/sous-catégorie, avec un mot-clé ou par regroupement. Je veux aussi pouvoir voir la liste de produits correspondants à la recherche.
+Critères d’acceptations :
+* L'utilisateur peut accéder à une barre de recherche depuis la page d'accueil et la page du catalogue.
+
+
+* L'utilisateur peut effectuer une recherche par mot-clé pour trouver des produits spécifiques.
+
+
+* L'utilisateur peut filtrer la recherche par catégorie et sous-catégorie pour affiner les résultats.
+
+
+* Une option de regroupement des produits par caractéristiques (ex. marque, type) est disponible pour faciliter la recherche.
+
+
+* Les résultats de recherche affichent une liste de produits correspondant aux critères saisis, avec les informations de base (nom, image, prix).
+
+
+* Si aucun produit ne correspond aux critères de recherche, un message informe l'utilisateur qu'aucun résultat n'est disponible pour cette recherche.*
+        Issues associées :
+
+
+
+
+Visualiser le détail d’un produit 
+Charge de travail : 3h
+Priorité : 1
+En tant que client visiteur je veux pouvoir voir le détail des produits. Je souhaiterais pouvoir voir la description, des photos, des avis et des réponses, la note des avis, la note moyenne, des photos d’autres utilisateurs, le stock du produit, la catégorie et le regroupement associés au produit. Ces informations me permettent de mieux comprendre leurs caractéristiques avant de les acheter.
+Critères d’acceptations :
+* L'utilisateur peut accéder à la page de détail d'un produit en cliquant sur le produit dans le catalogue.
+
+
+* La page de détail affiche la description complète du produit, incluant ses caractéristiques principales.
+
+
+* Plusieurs photos du produit sont disponibles, offrant des vues sous différents angles.
+
+
+* La page de détail montre les avis des clients, accompagnés des notes attribuées par chaque utilisateur.
+
+
+* Une note moyenne basée sur tous les avis est affichée pour aider l'utilisateur à évaluer la satisfaction générale des acheteurs.
+
+
+* Les photos ajoutées par d'autres utilisateurs sont visibles dans une section dédiée.
+
+
+* La disponibilité du stock est indiquée (ex. en stock, quantité limitée, ou en rupture de stock).
+
+
+* Les informations de catégorie et de regroupement (ex. marque, collection) sont affichées pour aider l'utilisateur à situer le produit dans le catalogue.
+
+
+* Si aucun avis n’est encore disponible, un message indique l'absence d'avis pour ce produit.
+        Issues associées :
+
+
+
+
+Visualiser des informations supplémentaires d’un produit
+Charge de travail : 2h
+Priorité : 5
+En tant que client visiteur, je veux avoir des propositions de produits similaires aux produits que je suis en train de consulter. De plus, si ce produit est un pc déjà construit, alors je veux pouvoir voir individuellement tous les composants présents dans ce pc et pouvoir accéder à leur page produit sur le site afin de faciliter ma navigation sur le site.
+Critères d’acceptations :
+* Lorsque l'utilisateur consulte la page de détail d'un produit, une section "Produits similaires" lui propose d'autres produits liés par catégorie, marque, ou caractéristiques similaires.
+
+
+* Si le produit consulté est un PC déjà construit, une liste détaillant chacun de ses composants (ex. processeur, carte graphique, mémoire) est affichée.
+
+
+* Chaque composant listé est accompagné d'un lien permettant d'accéder à la page produit correspondante pour obtenir des informations supplémentaires sur ce composant.
+
+
+* Les produits similaires et la liste des composants sont chargés en même temps que le reste de la page, sans impact notable sur le temps de chargement.
+
+
+* Si aucun produit similaire n'est disponible, la section "Produits similaires" n'apparaît pas, ou un message indique qu'aucune suggestion n'est disponible.
+
+
+* Si le produit n'est pas un PC construit, la section des composants n'apparaît pas.
+        Issues associées :
+
+
+
+
+Visualiser les commandes passées 
+Charge de travail : 3h
+Priorité : 4
+En tant que client je veux pouvoir voir les commandes que j’ai passé.
+Critères d’acceptations :
+* L'utilisateur connecté peut accéder à une page dédiée pour visualiser l'historique de ses commandes passées.
+
+
+* La liste des commandes affiche les informations principales de chaque commande : numéro de commande, date d'achat, montant total, et statut de la commande (ex. en cours, expédiée, livrée).
+
+
+* En cliquant sur une commande spécifique, l'utilisateur peut consulter les détails de cette commande, incluant les produits achetés, leurs quantités, et leurs prix unitaires.
+
+
+* Pour chaque produit dans la commande, un lien permet d'accéder à la page produit correspondante.
+
+
+* Si l'utilisateur n'a passé aucune commande, un message indique l'absence de commandes dans l'historique.
+        Issues associées :
+
+
+
+
+Ecrire des avis
+Charge de travail : 4h
+Priorité : 6
+En tant que client ayant acheté un produit, je veux pouvoir rédiger des avis sur les produits que j'ai achetés afin de partager mon expérience avec d'autres utilisateurs.  Je veux pouvoir y attacher des photos.
+Critères d’acceptations :
+* L'utilisateur connecté ayant acheté un produit peut accéder à une option pour rédiger un avis sur ce produit.
+
+
+* Lors de la rédaction de l'avis, l'utilisateur peut attribuer une note au produit (ex. de 1 à 5 étoiles) et rédiger un commentaire textuel décrivant son expérience.
+
+
+* L'utilisateur a la possibilité de joindre des photos à son avis pour illustrer son expérience avec le produit.
+
+
+* Une limite est appliquée sur le nombre de photos pouvant être jointes (ex. jusqu'à 5 photos) et sur la taille des fichiers.
+
+
+* Après soumission, l'avis est ajouté à la section des avis du produit et devient visible pour les autres utilisateurs.
+
+
+* Si l'utilisateur tente d'écrire un avis pour un produit qu'il n'a pas acheté, un message l'informe que seuls les acheteurs peuvent laisser des avis.
+
+
+* Une confirmation s'affiche pour indiquer que l'avis a bien été publié ou qu'il est en attente de validation, le cas échéant.
+        Issues associées :
+
+
+
+
+Ecrire des réponses
+Charge de travail : 3h
+Priorité : 7
+En tant qu’employé, je veux pouvoir lire et répondre aux avis des clients.
+Critères d’acceptations :
+* L'employé connecté peut accéder aux avis laissés par les clients sur les produits depuis le panneau d'administration ou une interface dédiée.
+
+
+* L'employé peut lire les avis, y compris les commentaires, les notes attribuées, et les photos jointes.
+
+
+* Une option "Répondre" est disponible sous chaque avis, permettant à l'employé de rédiger une réponse en texte libre.
+
+
+* L'employé peut soumettre sa réponse, qui sera immédiatement visible sous l'avis correspondant sur la page produit.
+
+
+* Les réponses de l'employé sont clairement identifiées comme étant de l'administration (par exemple, avec un badge ou un texte spécifique).
+
+
+* Les réponses peuvent être modérées ou supprimées par un administrateur si nécessaire.
+        Issues associées :
+
+
+Ajouter un produit affiché dans le panier
+Charge de travail : 2h
+Priorité : 1
+En tant que client avec un compte je veux pouvoir ajouter des produits affichés sur mon écran à mon panier afin de finaliser mes achats ultérieurement.
+Critères d’acceptations :
+* L'utilisateur connecté peut ajouter un produit au panier directement depuis la page de détail du produit ou la page du catalogue.
+
+
+* Un bouton "Ajouter au panier" est visible sur chaque produit, et l'utilisateur peut cliquer dessus pour ajouter le produit à son panier.
+
+
+* Lorsqu'un produit est ajouté au panier, une notification ou un message de confirmation s'affiche, indiquant que le produit a bien été ajouté.
+
+
+* Le panier est mis à jour en temps réel, et l'utilisateur peut consulter le nombre de produits et le total de sa commande dans l'icône du panier, visible en permanence.
+
+
+* L'utilisateur peut également modifier la quantité du produit dans le panier (ex. augmenter ou diminuer la quantité).
+
+
+* Si le produit a plusieurs variantes (ex. taille, couleur), l'utilisateur peut choisir la variante avant d'ajouter le produit au panier.
+
+
+* Si l'utilisateur tente d'ajouter un produit en rupture de stock, un message l'informe de l'indisponibilité et lui propose éventuellement une option de notification lorsque le produit est de nouveau disponible.
+
+
+
+
+Gérer le panier 
+Charge de travail : 2h
+Priorité : 1
+En tant que client je veux pouvoir gérer mon panier en l’affichant, en supprimant des produits présents dedans et en modifiant la quantité des produits.
+Critères d’acceptations :
+Issues associées :
+
+
+Valider le panier et payer
+Charge de travail : 4h
+Priorité : 1
+En tant que client, je veux pouvoir commander les produits de mon panier et régler facilement en ligne par différents moyens de paiement. Je veux ensuite les recevoir à mon domicile ou une autre adresse donnée. Je souhaiterais aussi que mes informations de paiement puissent être sauvegardées pour accélérer des paiements ultérieurs.
+Critères d’acceptations :
+Issues associées :
+
+
+Visualiser mes dernières consultations de produits
+Charge de travail : 4h
+Priorité : 5
+En tant que client je veux pouvoir voir l’historique de mes consultations.
+Critères d’acceptations :
+Issues associées :
+
+
+Gérer des points fidélité 
+Charge de travail : 4h
+Priorité : 8
+En tant que client je veux pouvoir bénéficier d’avantages après un certain nombre d’achats ou d’argent dépensé. Ces avantages peuvent se traduire par des réductions ou des articles offerts.
+Critères d’acceptations :
+Issues associées :
+
+
+Consulter une FAQ
+Charge de travail : 4h
+Priorité : 9
+En tant que client visiteur, je souhaite avoir accès à une FAQ pour obtenir des réponses à des questions concernant des sujets comme les commandes, les paiements (ex : remboursement, annulation, retours…) ou la livraison.
+Critères d’acceptations :
+Issues associées :
+
+
+Gestion des comptes des employés
+Charge de travail : 6h
+Priorité : 6
+En tant qu'administrateur, je veux pouvoir créer ou supprimer des comptes employés afin de garantir la sécurité et le bon fonctionnement du site.
+Critères d’acceptations :
+Issues associées :
+
+
+Gestion des produits et catégories du site
+Charge de travail : 6h
+Priorité : 3
+En tant qu’administrateur, je veux pouvoir ajouter des nouveaux produits ou en supprimer. De plus, je veux pouvoir ajouter ou supprimer des catégories afin de garder le site a jour avec les dernières sorties.
+Critères d’acceptations :
+Issues associées :
+
+
+Gérer les comptes client
+Charge de travail : 4h
+Priorité : 4
+En tant qu’administrateur, je souhaiterais pouvoir accéder aux comptes des clients afin de pouvoir régler d'éventuels problèmes les concernant.
+Critères d’acceptations :
+Issues associées :
+
+
+
+
+Gérer les stocks
+Charge de travail : 6h
+Priorité : 5
+En tant qu’administrateur, je souhaiterais pouvoir accéder aux stock des produits et pouvoir en commander quand j’estime qu’il n’y en a plus assez. Je souhaiterais aussi pouvoir modifier la valeur du nombre de produits minimum avant le déclenchement d’une commande automatique.
+Critères d’acceptations :
+Issues associées :
+
+
+Visualiser des événements spéciaux
+Charge de travail : 6h
+Priorité : 7
+En tant que client, je veux être informé des promotions en cours, ou qu’elle soit mise en évidence sur le site, comme celles liées à des événements spéciaux (black friday, halloween, etc …), afin de profiter des offres spéciales.
+Critères d’acceptations :
+Issues associées :
+
+
+Création d'événements spéciaux
+Charge de travail : 6h
+Priorité : 7
+En tant qu’administrateur, je veux pouvoir ajouter des promotions qui seront déployables par les employés afin de simplifier le déploiement des événements promotionnels et de mieux les contrôler.
+Critères d’acceptations :
+Issues associées :
+
+
+Gestion des événements spéciaux
+Charge de travail : 3h
+Priorité : 7
+En tant qu’employé, je veux pouvoir activer ou désactiver des promotions déjà paramétrées par l’administrateur afin de déployer les réductions pour les clients.
+Critères d’acceptations :
+Issues associées :
