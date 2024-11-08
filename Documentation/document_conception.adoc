@@ -17,7 +17,7 @@ Ce document de conception détaille les éléments clés du projet de site e-com
 
 Ce diagramme présente les interactions entre les différents types d’utilisateurs et les fonctionnalités principales de l'application.
 
-image::images/UC.png[UC, 50%]
+image::images/UC.png[UC, 40%]
 
 === Description des cas d'utilisation principaux
 
@@ -103,7 +103,7 @@ image::images/DS_Commande.png[DS_Commande, 50%]
 
 Le diagramme de classe métier ci-dessous illustre les principales entités de l'application e-commerce ainsi que leurs relations. Chaque classe représente une entité du système, et leurs attributs et méthodes reflètent les opérations essentielles pour le fonctionnement de la plateforme.
 
-image::images/DC_Métier.png[DC_Métier, 50%]
+image::images/DC_Métier.png[DC_Métier, 100%]
 
 === Description des principales classes métiers
 
